@@ -2,7 +2,6 @@
 public class Cat {
 
     private String name;
-    private String ownerName;
 
     public Cat(String name) {
         this.name = name;
@@ -11,6 +10,4 @@ public class Cat {
     public String getName() {
         return name;
     }
-
-
 }
